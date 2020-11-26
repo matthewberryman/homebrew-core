@@ -29,6 +29,7 @@ class Nghttp2 < Formula
   depends_on "libevent"
   depends_on "openssl@1.1"
 
+  uses_from_macos "libxml2"
   uses_from_macos "zlib"
   uses_from_macos "libxml2"
 
